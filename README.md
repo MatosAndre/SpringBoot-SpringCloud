@@ -23,9 +23,9 @@
 * Uses H2 memory to store several combinations of currency exchange
 * Service Name: currency-exchange
 * Implemented a simple Circuit Breaker Controller to explore:
- * @Retry - Retries x number of times to call an unresponsive API
- * @CircuitBreaker - Keeps the client safe and functional when the target server is failing / unresponsive
- * @RateLimiter - Protects the server from over loading by controlling throughput 
+  * @Retry - Retries x number of times to call an unresponsive API
+  * @CircuitBreaker - Keeps the client safe and functional when the target server is failing / unresponsive
+  * @RateLimiter - Protects the server from over loading by controlling throughput 
 * All the requests are tracked via Zipkin 
 
 ## Currency Conversion Service <a name="ccs"></a>
