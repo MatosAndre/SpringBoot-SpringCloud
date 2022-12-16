@@ -32,8 +32,8 @@
 * Responsible to convert a certain amount of currency A to currency B 
 * Service Name: currency-conversion
 * Implemented two separate methods for the same purpose:
- * calculateCurrencyConversion: uses ResponseEntity and RestTemplate to retrieve information from Currency Exchange Service
- * calculateCurrencyConversionFeign: uses Feign REST Client for Service Invocation
+  * calculateCurrencyConversion: uses ResponseEntity and RestTemplate to retrieve information from Currency Exchange Service
+  * calculateCurrencyConversionFeign: uses Feign REST Client for Service Invocation
 * All the requests are tracked via Zipkin 
 
 ## Eureka Naming Server <a name="nms"></a>
@@ -43,13 +43,13 @@
 ## API Gateway <a name="api"></a>
 * Simple and effective way to route to APIs
 * Provide cross cutting concerns:
- * Security
- * Monitoring/metrics
+  * Security
+  * Monitoring/metrics
 * Explored features
- * Match routes on any request atribute
- * Define Predicates and Filters
- * Integrate with Sptring Cloud Discovery Client
- * Path Rewriting   
+  * Match routes on any request atribute
+  * Define Predicates and Filters
+  * Integrate with Sptring Cloud Discovery Client
+  * Path Rewriting   
 
 ## URLs <a name="url"></a>
 #### Currency Exchange Service
