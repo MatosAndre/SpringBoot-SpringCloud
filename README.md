@@ -8,4 +8,4 @@
 * Java 11
 * Spring Boot 2.7.6
 * Spring Cloud 2021.0.5
-*  * Service Registry using Eureka Naming Server
+  * Service Registry using Eureka Naming Server
